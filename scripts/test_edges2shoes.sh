@@ -27,4 +27,5 @@ CUDA_VISIBLE_DEVICES=${GPU_ID} python ./test.py \
   --how_many ${HOW_MANY} \
   --n_samples ${NUM_SAMPLES} \
   --center_crop \
-  --no_flip
+  --no_flip \
+  --sync
